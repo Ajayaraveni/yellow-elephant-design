@@ -31,7 +31,7 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-2 sm:px-8 lg:px-12">
         <Link to="/" className="flex items-center gap-3" aria-label="The Yellow Elephant Interiors">
-          <img src={logo} alt="The Yellow Elephant Interiors logo" className="h-[70px] w-auto md:h-[88px] lg:h-[96px]" />
+          <img src={logo} alt="The Yellow Elephant Interiors logo" className="h-[88px] w-auto sm:h-[92px] md:h-[110px] lg:h-[118px]" />
         </Link>
 
         <nav className="hidden items-center gap-9 md:flex">
