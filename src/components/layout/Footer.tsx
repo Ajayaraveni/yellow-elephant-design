@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-line bg-white">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 lg:grid-cols-4 lg:px-12">
         <div>
-          <img src={logo} alt="The Yellow Elephant Interiors" className="h-20 w-auto" />
+          <img src={logo} alt="The Yellow Elephant Interiors" className="h-28 w-auto" />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
             Transforming spaces in Hyderabad into timeless, elegant experiences that elevate everyday living.
           </p>
