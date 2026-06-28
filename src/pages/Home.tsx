@@ -62,12 +62,18 @@ const projects = [
 const galleryItems = [
   { cat: "Living Rooms", img: galLiving1 },
   { cat: "Living Rooms", img: galLiving2 },
+  { cat: "Living Rooms", img: galLiving3 },
   { cat: "Bedrooms", img: galBedroom1 },
   { cat: "Bedrooms", img: galBedroom2 },
+  { cat: "Bedrooms", img: galBedroom3 },
   { cat: "Kitchens", img: galKitchen1 },
+  { cat: "Kitchens", img: galKitchen2 },
   { cat: "Wardrobes", img: galWardrobe1 },
+  { cat: "Wardrobes", img: galWardrobe2 },
   { cat: "Dining Areas", img: galDining1 },
+  { cat: "Dining Areas", img: galDining2 },
   { cat: "False Ceilings", img: galCeiling1 },
+  { cat: "False Ceilings", img: galCeiling2 },
 ];
 const categories = ["All", "Living Rooms", "Bedrooms", "Kitchens", "Wardrobes", "Dining Areas", "False Ceilings"];
 
