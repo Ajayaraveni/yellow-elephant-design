@@ -13,8 +13,20 @@ import svcBedroom from "@/assets/svc-bedroom.jpg";
 import svcWardrobe from "@/assets/svc-wardrobe.jpg";
 import svcCeiling from "@/assets/svc-ceiling.jpg";
 import svcTurnkey from "@/assets/svc-turnkey.jpg";
-import svcDining from "@/assets/svc-dining.jpg";
-import galleryKids from "@/assets/gallery-kids.jpg";
+import projApartment from "@/assets/proj-apartment-manikonda.jpg";
+import projVilla from "@/assets/proj-villa-kokapet.jpg";
+import projKitchen from "@/assets/proj-kitchen-miyapur.jpg";
+import projBedroom from "@/assets/proj-bedroom-gachibowli.jpg";
+import projLiving from "@/assets/proj-living-hitech.jpg";
+import projWardrobe from "@/assets/proj-wardrobe-kondapur.jpg";
+import galLiving1 from "@/assets/gal-living-1.jpg";
+import galLiving2 from "@/assets/gal-living-2.jpg";
+import galBedroom1 from "@/assets/gal-bedroom-1.jpg";
+import galBedroom2 from "@/assets/gal-bedroom-2.jpg";
+import galKitchen1 from "@/assets/gal-kitchen-1.jpg";
+import galWardrobe1 from "@/assets/gal-wardrobe-1.jpg";
+import galDining1 from "@/assets/gal-dining-1.jpg";
+import galCeiling1 from "@/assets/gal-ceiling-1.jpg";
 
 const trust = [
   { icon: Users, k: "100+", v: "Happy Clients" },
@@ -33,23 +45,23 @@ const showcase = [
 ];
 
 const projects = [
-  { name: "Modern 3BHK Apartment", category: "Apartment", location: "Manikonda", img: svcLiving },
-  { name: "Luxury Villa Interior", category: "Villa", location: "Kokapet", img: svcTurnkey },
-  { name: "Premium Modular Kitchen", category: "Kitchen", location: "Miyapur", img: svcKitchen },
-  { name: "Elegant Master Bedroom", category: "Bedroom", location: "Gachibowli", img: svcBedroom },
-  { name: "Contemporary Living Room", category: "Living", location: "Hitech City", img: svcCeiling },
-  { name: "Custom Wardrobe Design", category: "Wardrobe", location: "Kondapur", img: svcWardrobe },
+  { name: "Modern 3BHK Apartment", category: "Apartment", location: "Manikonda", img: projApartment },
+  { name: "Luxury Villa Interior", category: "Villa", location: "Kokapet", img: projVilla },
+  { name: "Premium Modular Kitchen", category: "Kitchen", location: "Miyapur", img: projKitchen },
+  { name: "Elegant Master Bedroom", category: "Bedroom", location: "Gachibowli", img: projBedroom },
+  { name: "Contemporary Living Room", category: "Living", location: "Hitech City", img: projLiving },
+  { name: "Custom Wardrobe Design", category: "Wardrobe", location: "Kondapur", img: projWardrobe },
 ];
 
 const galleryItems = [
-  { cat: "Living Rooms", img: svcLiving },
-  { cat: "Living Rooms", img: svcCeiling },
-  { cat: "Bedrooms", img: svcBedroom },
-  { cat: "Bedrooms", img: galleryKids },
-  { cat: "Kitchens", img: svcKitchen },
-  { cat: "Wardrobes", img: svcWardrobe },
-  { cat: "Dining Areas", img: svcDining },
-  { cat: "False Ceilings", img: svcCeiling },
+  { cat: "Living Rooms", img: galLiving1 },
+  { cat: "Living Rooms", img: galLiving2 },
+  { cat: "Bedrooms", img: galBedroom1 },
+  { cat: "Bedrooms", img: galBedroom2 },
+  { cat: "Kitchens", img: galKitchen1 },
+  { cat: "Wardrobes", img: galWardrobe1 },
+  { cat: "Dining Areas", img: galDining1 },
+  { cat: "False Ceilings", img: galCeiling1 },
 ];
 const categories = ["All", "Living Rooms", "Bedrooms", "Kitchens", "Wardrobes", "Dining Areas", "False Ceilings"];
 
