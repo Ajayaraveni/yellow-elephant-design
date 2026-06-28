@@ -21,12 +21,18 @@ import projLiving from "@/assets/proj-living-hitech.jpg";
 import projWardrobe from "@/assets/proj-wardrobe-kondapur.jpg";
 import galLiving1 from "@/assets/gal-living-1.jpg";
 import galLiving2 from "@/assets/gal-living-2.jpg";
+import galLiving3 from "@/assets/gal-living-3.jpg";
 import galBedroom1 from "@/assets/gal-bedroom-1.jpg";
 import galBedroom2 from "@/assets/gal-bedroom-2.jpg";
+import galBedroom3 from "@/assets/gal-bedroom-3.jpg";
 import galKitchen1 from "@/assets/gal-kitchen-1.jpg";
+import galKitchen2 from "@/assets/gal-kitchen-2.jpg";
 import galWardrobe1 from "@/assets/gal-wardrobe-1.jpg";
+import galWardrobe2 from "@/assets/gal-wardrobe-2.jpg";
 import galDining1 from "@/assets/gal-dining-1.jpg";
+import galDining2 from "@/assets/gal-dining-2.jpg";
 import galCeiling1 from "@/assets/gal-ceiling-1.jpg";
+import galCeiling2 from "@/assets/gal-ceiling-2.jpg";
 
 const trust = [
   { icon: Users, k: "100+", v: "Happy Clients" },
@@ -56,12 +62,18 @@ const projects = [
 const galleryItems = [
   { cat: "Living Rooms", img: galLiving1 },
   { cat: "Living Rooms", img: galLiving2 },
+  { cat: "Living Rooms", img: galLiving3 },
   { cat: "Bedrooms", img: galBedroom1 },
   { cat: "Bedrooms", img: galBedroom2 },
+  { cat: "Bedrooms", img: galBedroom3 },
   { cat: "Kitchens", img: galKitchen1 },
+  { cat: "Kitchens", img: galKitchen2 },
   { cat: "Wardrobes", img: galWardrobe1 },
+  { cat: "Wardrobes", img: galWardrobe2 },
   { cat: "Dining Areas", img: galDining1 },
+  { cat: "Dining Areas", img: galDining2 },
   { cat: "False Ceilings", img: galCeiling1 },
+  { cat: "False Ceilings", img: galCeiling2 },
 ];
 const categories = ["All", "Living Rooms", "Bedrooms", "Kitchens", "Wardrobes", "Dining Areas", "False Ceilings"];
 
